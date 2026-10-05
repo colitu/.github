@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/colitu/.github/main/profile/assets/colitu.png" width="120" alt="Colitu">
+  <img src="https://raw.githubusercontent.com/colitu/.github/main/profile/assets/colitu.png" width="110" alt="Colitu">
 </p>
 
 <h1 align="center">Colitu</h1>
@@ -10,90 +10,24 @@
 
 <p align="center">
   <a href="https://status.colitu.com"><img src="https://img.shields.io/endpoint?url=https://status.colitu.com/api/github-badge/network&style=for-the-badge" alt="VPN Network"></a>
-  <a href="https://status.colitu.com"><img src="https://img.shields.io/endpoint?url=https://status.colitu.com/api/github-badge/api&style=for-the-badge" alt="API"></a>
-  <a href="https://colitu.com/open-source"><img src="https://img.shields.io/badge/Open%20Source-Android%20%C2%B7%20iOS%20%C2%B7%20Windows%20%C2%B7%20Linux-7c6cff?style=for-the-badge&labelColor=101014" alt="Open Source"></a>
-  <a href="https://github.com/colitu/android/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-7c6cff?style=for-the-badge&labelColor=101014" alt="GPL-3.0"></a>
-</p>
-
-<p align="center">
-  Hysteria2 • VLESS Reality • VLESS XHTTP • Trojan • Shadowsocks 2022
+  <a href="https://colitu.com/open-source"><img src="https://img.shields.io/badge/License-GPL--3.0-7c6cff?style=for-the-badge&labelColor=101014" alt="GPL-3.0"></a>
 </p>
 
 <p align="center">
   <a href="https://colitu.com">Website</a> •
+  <a href="https://colitu.com/download">Download</a> •
   <a href="https://docs.colitu.com">Docs</a> •
   <a href="https://status.colitu.com">Status</a> •
-  <a href="https://colitu.com/download">Download</a> •
   <a href="https://colitu.com/security">Security</a>
 </p>
 
----
+| App | Repository |
+|---|---|
+| Android & Android TV | [colitu/android](https://github.com/colitu/android) |
+| iPhone & iPad | [colitu/ios](https://github.com/colitu/ios) |
+| Windows | [colitu/windows](https://github.com/colitu/windows) |
+| Linux | [colitu/linux](https://github.com/colitu/linux) |
+| Chrome & Firefox | [colitu/extension](https://github.com/colitu/extension) |
 
-## Network status
-
-<a href="https://status.colitu.com"><img src="https://status.colitu.com/api/github-badge/overall.svg" alt="Colitu Network status"></a>
-
-[View live network status →](https://status.colitu.com)
-
----
-
-## Connection technologies
-
-The apps choose between these methods on their own and keep the first one that
-actually carries traffic on your network.
-
-| Method | In the apps | Transport |
-|---|---|---|
-| Hysteria2 | Fast | QUIC (UDP) |
-| VLESS Reality | Stealth | TCP + Reality TLS |
-| VLESS XHTTP | Resilient | HTTP + Reality TLS |
-| Trojan | Classic | TCP + TLS |
-| Shadowsocks 2022 | Light | TCP / UDP |
-
----
-
-## Apps
-
-| Platform | Repository | Build | Release |
-|---|---|---|---|
-| Android & Android TV | [colitu/android](https://github.com/colitu/android) | [![Android CI](https://img.shields.io/github/actions/workflow/status/colitu/android/ci.yml?branch=main&style=flat-square&label=build&labelColor=101014)](https://github.com/colitu/android/actions/workflows/ci.yml) | [![Release](https://img.shields.io/github/v/release/colitu/android?style=flat-square&labelColor=101014&color=7c6cff)](https://github.com/colitu/android/releases/latest) |
-| Windows | [colitu/windows](https://github.com/colitu/windows) | [![Windows build](https://img.shields.io/github/actions/workflow/status/colitu/windows/build.yml?branch=main&style=flat-square&label=build&labelColor=101014)](https://github.com/colitu/windows/actions/workflows/build.yml) | [![Release](https://img.shields.io/github/v/release/colitu/windows?style=flat-square&labelColor=101014&color=7c6cff)](https://github.com/colitu/windows/releases/latest) |
-| Linux | [colitu/linux](https://github.com/colitu/linux) | [![Linux tests](https://img.shields.io/github/actions/workflow/status/colitu/linux/test.yml?branch=main&style=flat-square&label=build&labelColor=101014)](https://github.com/colitu/linux/actions/workflows/test.yml) | [![Release](https://img.shields.io/github/v/release/colitu/linux?include_prereleases&style=flat-square&labelColor=101014&color=7c6cff)](https://github.com/colitu/linux/releases) |
-| iOS & iPadOS | [colitu/ios](https://github.com/colitu/ios) | [![iOS CI](https://img.shields.io/github/actions/workflow/status/colitu/ios/ci.yml?branch=main&style=flat-square&label=build&labelColor=101014)](https://github.com/colitu/ios/actions/workflows/ci.yml) | [![Release](https://img.shields.io/github/v/release/colitu/ios?style=flat-square&labelColor=101014&color=7c6cff)](https://github.com/colitu/ios/releases/latest) |
-| Chrome & Firefox extension | [colitu/extension](https://github.com/colitu/extension) | [![Extension CI](https://img.shields.io/github/actions/workflow/status/colitu/extension/ci.yml?branch=main&style=flat-square&label=build&labelColor=101014)](https://github.com/colitu/extension/actions/workflows/ci.yml) | [![Release](https://img.shields.io/github/v/release/colitu/extension?style=flat-square&labelColor=101014&color=7c6cff)](https://github.com/colitu/extension/releases/latest) |
-
-Downloads for every platform: [colitu.com/download](https://colitu.com/download)
-
----
-
-## Live badges
-
-Ready to paste into any README. Every badge reads the same checks as
-[status.colitu.com](https://status.colitu.com) and changes on its own when something
-goes down (green → yellow → red).
-
-| Badge | Shows | Image |
-|---|---|---|
-| <img src="https://status.colitu.com/api/github-badge/overall.svg" alt="Colitu Network"> | Whole service: online locations, or *Major outage* | `status.colitu.com/api/github-badge/overall.svg` |
-| <img src="https://status.colitu.com/api/github-badge/network.svg" alt="VPN Network"> | Online VPN locations | `status.colitu.com/api/github-badge/network.svg` |
-| <img src="https://status.colitu.com/api/github-badge/api.svg" alt="API"> | Sign-in, accounts and the API the apps use | `status.colitu.com/api/github-badge/api.svg` |
-| <img src="https://status.colitu.com/api/github-badge/website.svg" alt="Website"> | colitu.com and the account portal | `status.colitu.com/api/github-badge/website.svg` |
-| <img src="https://status.colitu.com/api/github-badge/downloads.svg" alt="Downloads"> | Installers and auto-update files | `status.colitu.com/api/github-badge/downloads.svg` |
-| <img src="https://status.colitu.com/api/github-badge/payments.svg" alt="Payments"> | Checkout and payment methods | `status.colitu.com/api/github-badge/payments.svg` |
-| <img src="https://status.colitu.com/api/github-badge/docs.svg" alt="Docs"> | docs.colitu.com help centre | `status.colitu.com/api/github-badge/docs.svg` |
-
-
-
-## Open source
-
-The Android, iOS, Windows and Linux apps and the browser extension are open source
-under the GPL-3.0 license. Release builds can be checked against their source: every
-GitHub release carries `SHA256SUMS`, and [colitu.com/open-source](https://colitu.com/open-source)
-explains how to verify a download.
-
-[colitu/vpn-lab](https://github.com/colitu/vpn-lab) (MIT) holds the reproducible
-protocol tests behind our "Can It Survive?" videos.
-
-- Contributing: read the `CONTRIBUTING.md` of the repository you want to change.
-- Help with your account or connection: [colitu.com/support](https://colitu.com/support)
-- Security issues: [security@colitu.com](mailto:security@colitu.com) — please do not open public issues.
+Every release ships with `SHA256SUMS`, so you can check a download against its source
+([how](https://colitu.com/open-source#verify)). Security issues: [security@colitu.com](mailto:security@colitu.com).
