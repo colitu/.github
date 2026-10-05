@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/colitu/.github/main/profile/assets/colitu.png" width="110" alt="Colitu">
-</p>
-
-<h1 align="center">Colitu</h1>
 
 <p align="center">
   Open-source VPN built for restricted and unstable networks.
